@@ -4,6 +4,8 @@ import Card from './Card';
 import data from './data/data'
 import logo from './assets/logo.svg';
 
+
+
 // class component
 class App extends Component {
 
@@ -33,7 +35,6 @@ class App extends Component {
     const {property, properties} = this.state;
     return (
       <div className="App">
-
         <div className="page">
             <section>
                 <img src={logo} className="App-logo" alt="logo" />

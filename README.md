@@ -1,3 +1,9 @@
+<h1>Image slideshow React. </h1>
+<div align="center"> 
+     <img width="45%" src="img1.png" alt="About screen" title="About screen"</img> 
+     <img height="0" width="8px"> 
+     
+</div> 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
