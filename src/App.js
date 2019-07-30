@@ -38,15 +38,15 @@ class App extends Component {
         <div className="page">
             <section>
                 <img src={logo} className="App-logo" alt="logo" />
-                <h1>Image slideshow React.</h1>
+                <h1>Image slideshow React</h1>
             </section>
 
             <div className="buttons">
-              <a class="boton_personalizado"
+              <a class="botton"
                 onClick={() => this.nextProperty()} 
                 disabled={property.index === data.properties.length-1}
               >Next</a>
-              <a class="boton_personalizado"
+              <a class="botton"
                 onClick={() => this.prevProperty()} 
                 disabled={property.index === 0}
               >Prev
